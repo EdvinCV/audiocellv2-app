@@ -29,5 +29,5 @@ export const clientTwoToken = axios.create({
 });
 
 export const client = axios.create({
-    baseURL: 'http://localhost:3001/',
+    baseURL: 'http://206.189.200.56:3001/',
 });

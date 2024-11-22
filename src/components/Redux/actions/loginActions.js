@@ -20,6 +20,7 @@ export const loginUser = (user) => {
     return async (dispatch) => {
         try {
             const resp = await client.post('api/users/login', user);
+            debugger;
             dispatch({
                 type: LOGIN_EXITOSO,
                 user: resp.data.user,
