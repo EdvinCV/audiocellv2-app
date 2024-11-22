@@ -1,0 +1,38 @@
+.contenedor-usuarios {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    color: #3941b3;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contenedor-encabezado {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contenedor-general > hr {
+    color: #f60093;
+}
+
+.contenedor-encabezado > h2 {
+    color: #3941b3;
+    margin-right: 20px;
+}
+
+.contenedor-tabla {
+    overflow-x: scroll;
+}
+
+.contenedor-general {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    min-height: 500px;
+    border-style: outset;
+    border-color: #f50092;
+}
